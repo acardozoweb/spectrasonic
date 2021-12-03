@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.spectraLogo {
+  padding-top: 10;
+  padding-left: 10;
+}
