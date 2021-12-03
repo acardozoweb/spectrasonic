@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About component matches snapshot DOM node structure 1`] = `
+<DocumentFragment>
+  <section>
+    <img
+      alt="spectrasonic logo"
+      class="spectraLogo"
+      src="spectrasonic_logo_k-192.jpg"
+      style="width: 35%;"
+    />
+  </section>
+</DocumentFragment>
+`;
