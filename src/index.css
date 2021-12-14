@@ -16,3 +16,12 @@ code {
   padding-top: 10;
   padding-left: 10;
 }
+
+.flex-row {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  justify-content: space-around;
+}
+
