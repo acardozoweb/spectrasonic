@@ -18,7 +18,7 @@ function eventListings() {
         <div className="card-body">
             <p>Venue</p>
             <p>Doortime, Start time</p>
-            <p>Price</p>
+            <p>Ticket Price</p>
             <p>19+ / All Ages / etc</p>
         </div>
       </div>
