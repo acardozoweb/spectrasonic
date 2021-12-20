@@ -3,7 +3,8 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header'
 import Nav from './components/Nav'
-import Listings from './components/Listings';
+import Listings from './components/Listings'
+import Signup from './components/Signup'
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <main>
           <Header></Header>
           <Listings></Listings>
+          <Signup></Signup>
       </main> 
     </div>
   );
