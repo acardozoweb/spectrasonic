@@ -7,7 +7,7 @@ import React from "react";
 function eventListings() {
   return (
     <div>
-      <div className="card mb-3">
+      <div className="event-card mb-3">
         <div className="card-header">
           <p>
             <span>
