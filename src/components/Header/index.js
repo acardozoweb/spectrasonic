@@ -10,7 +10,7 @@ import spectraLogo from "../../assets/logos/spectrasonic_logo_k-192.jpg";
 function Header() {
   return (
     <header>
-      <div className="container flex-row justify-space-between-lg justify-center align-center">
+      <div className="nav container flex-row justify-space-between-lg justify-center align-center">
         <Link to="/">
           <img
             src={spectraLogo}
@@ -21,10 +21,15 @@ function Header() {
         </Link>
 
         <nav className="text-center">
-          <Link to="#header"></Link>
-          <Link to="/faq">FAQ</Link>
+          <button>
+            <Link to="/faq">FAQ</Link>
+          </button>
 
-          <Link to="/contact">Contact</Link>
+          <button>
+            <Link to="/contact">Contact</Link>
+          </button>
+
+          <Link to="#header"></Link>
         </nav>
       </div>
     </header>

@@ -46,3 +46,15 @@ nav-tab {
 .pageTitle {
   color: #e30d40;
 }
+
+.question {
+  font-weight: bold;
+}
+
+.answer {
+  font-weight: lighter;
+}
+
+.faqList {
+  padding: 10 10 10 10
+}
