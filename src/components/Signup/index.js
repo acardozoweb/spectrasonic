@@ -13,13 +13,15 @@ function signup() {
     <main className="flex-row justify-right mb-4">
       <div>
         <div className="card">
-          <h4 className="card-header">Join our mailing list!</h4>
+          <h3 className="card-header">Join our mailing list!</h3>
           <div className="card-body">
-
             {/* MAILCHIMP FORM ACTION */}
-            <form action="https://xom.us4.list-manage.com/subscribe/post" method="POST">
-                <input type="hidden" name="u" value="4f93ba4dded6177a1e663084f" />
-                <input type="hidden" name="id" value="ad01b68579" />
+            <form
+              action="https://xom.us4.list-manage.com/subscribe/post"
+              method="POST"
+            >
+              <input type="hidden" name="u" value="4f93ba4dded6177a1e663084f" />
+              <input type="hidden" name="id" value="ad01b68579" />
 
               <input
                 className="form-input"
@@ -45,45 +47,51 @@ function signup() {
                 id="MERGE2"
               />
 
-              <button className="btn d-block w-100" type="submit">
-                Submit
+              <button className="signup-btn" type="submit">
+                submit
               </button>
             </form>
 
+            <div>
+              <h3 className="card-header">Follow us for updates!</h3>
 
+              <div className="sm-icons">
+                <a
+                  href="https://www.facebook.com/spectrasonic/"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    className="fbLogo"
+                    src={fbLogo}
+                    alt="link to spectrasonic facebook page"
+                  />
+                </a>
 
-            <div className="socials">
-              <h4 className="card-header">Follow us for updates!</h4>
+                <a
+                  href="https://twitter.com/spectrasonic"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    className="twLogo"
+                    src={twitLogo}
+                    alt="link to spectrasonic twitter page"
+                  />
+                </a>
 
-              <a
-                href="https://www.facebook.com/spectrasonic/"
-                className="fbLogo"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <img src={fbLogo} alt="link to spectrasonic facebook page" />
-              </a>
-
-              <a
-                href="https://twitter.com/spectrasonic"
-                className="twLogo"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <img src={twitLogo} alt="link to spectrasonic twitter page" />
-              </a>
-
-              <a
-                href="https://instagram.com/spectrasonic"
-                className="igLogo"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <img
-                  src={instaLogo}
-                  alt="link to spectrasonic instagram page"
-                />
-              </a>
+                <a
+                  href="https://instagram.com/spectrasonic"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    className="igLogo"
+                    src={instaLogo}
+                    alt="link to spectrasonic instagram page"
+                  />
+                </a>
+              </div>
             </div>
           </div>
         </div>

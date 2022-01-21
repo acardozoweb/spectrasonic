@@ -9,24 +9,40 @@ import spectraLogo from "../../assets/logos/spectrasonic_logo_k-192.jpg";
 
 function Header() {
   return (
-    <header>
-      <div className="nav container flex-row justify-space-between-lg justify-center align-center">
+    <header className="header">
+      <div className="header-container">
         <Link to="/">
           <img
             src={spectraLogo}
             className="spectraLogo"
-            style={{ width: "35%" }}
+            // style={{ width: "35%" }}
             alt="spectrasonic logo"
           />
         </Link>
-
-        <nav className="text-center">
-          <button>
-            <Link to="/faq">FAQ</Link>
+ 
+        <nav className="nav">
+          <button className="nav-btn">
+            <Link className="nav-link" to="/shows">
+              shows
+            </Link>
           </button>
 
-          <button>
-            <Link to="/contact">Contact</Link>
+          <button className="nav-btn">
+            <Link className="nav-link" to="/calendar">
+              calendar
+            </Link>
+          </button>
+
+          <button className="nav-btn">
+            <Link className="nav-link" to="/faq">
+              faq
+            </Link>
+          </button>
+
+          <button className="nav-btn">
+            <Link className="nav-link" to="/contact">
+              contact
+            </Link>
           </button>
 
           <Link to="#header"></Link>

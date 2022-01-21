@@ -8,7 +8,7 @@ function eventListings() {
   return (
     <div>
       <div className="event-card mb-3">
-        <div className="card-header">
+        <div>
           <p>
             <span>
                 Date: Artist Name

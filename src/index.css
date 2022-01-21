@@ -15,10 +15,6 @@ code {
   padding-left: 10;
 }
 
-.sm-icon {
-  width: 10px;
-}
-
 body {
   margin: 0;
 
@@ -38,14 +34,61 @@ body {
 }
 
 
-nav-tab {
-  color: #e30d40;
+
+/* HEADER */
+
+
+
+.spectraLogo {
+  max-width: 350px;
+  padding: 30px 60px 30px 30px;
 }
+
+.header-container {
+  padding: 25px 25px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.nav-btn {
+  background-color: #e30d40;
+  border-radius: 5px;
+  width: fit-content;
+  height: 40px;
+  border: 1px solid black;
+  margin: 5px;
+  box-shadow: 2px 2px black;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-size: 21px;
+  font-weight: bolder;
+  text-shadow: 2px 2px black;
+}
+
+.nav-active {
+  background-color: white;
+  color: #e30d40;
+  text-shadow: 2px 2px black;
+  box-shadow: 2px 2px black;
+
+}
+
+
 
 
 .pageTitle {
   color: #e30d40;
 }
+
+
+
+
+
+/* FAQ */
 
 .question {
   font-weight: bold;
@@ -57,4 +100,48 @@ nav-tab {
 
 .faqList {
   padding: 10 10 10 10
+}
+
+
+
+
+/* SIGNUP */
+
+.card-header {
+  size: 20px;
+  color: #e30d40;
+  font-weight:900;
+  text-shadow: 1px 1px lightgrey;
+}
+
+.signup-btn {
+  background-color: #e30d40;
+  border-radius: 5px;
+  width: fit-content;
+  height: 25px;
+  align-items:flex-end;
+  border: 1px solid black;
+  margin: 5px;
+  box-shadow: 1px 1px black;
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-weight: bolder;
+  text-shadow: 1px 1px black;
+}
+
+.sm-icons {
+  display: block;
+}
+
+.fbLogo {
+  max-width: 100px;
+}
+
+.twLogo {
+  max-width: 100px;
+}
+
+.igLogo {
+  max-width: 112px;
 }
