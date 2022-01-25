@@ -24,23 +24,30 @@ body {
 
   line-height: 1;
 
-  font-size: 18px;
+  font-size: 1vw;
 
   letter-spacing: 0.1em;
 
   color: black;
 
   font-family: Arial, Helvetica, sans-serif;
+
 }
+
 
 
 
 /* HEADER */
 
-
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px 100px 30px 100px;
+  justify-content: center;
+}
 
 .spectraLogo {
-  max-width: 350px;
+  max-width: 450px;
   padding: 30px 60px 30px 30px;
 }
 
@@ -50,6 +57,13 @@ body {
   flex-wrap: wrap;
 }
 
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0 0 30px 0;
+}
 
 .nav-btn {
   background-color: #e30d40;
@@ -58,33 +72,140 @@ body {
   height: 40px;
   border: 1px solid black;
   margin: 5px;
-  box-shadow: 2px 2px black;
+  box-shadow: 2px 2px 5px black;
 }
 
 .nav-link {
   text-decoration: none;
   color: white;
-  font-size: 21px;
+  font-size: 1.7vw;
   font-weight: bolder;
-  text-shadow: 2px 2px black;
+  text-shadow: 2px 2px 5px black;
 }
 
 .nav-active {
   background-color: white;
   color: #e30d40;
-  text-shadow: 2px 2px black;
-  box-shadow: 2px 2px black;
+  text-shadow: 2px 2px 5px black;
+  box-shadow: 2px 2px 5px black;
 
 }
-
-
-
 
 .pageTitle {
   color: #e30d40;
 }
 
 
+
+/* LISTINGS  */
+
+.event-card {
+  display: flex;
+  border: 0.5px solid black;
+  border-radius: 5px;
+  width: fit-content;
+  margin: 30px 100px 30px 100px;
+  box-shadow: 2px 2px 5px;
+}
+
+.card-img {
+  max-width: 350px;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.card-body {
+  padding: 15px 15px 30px 5px;
+  font-size: 1.4vw;
+  line-height: 3px;
+}
+
+.ticket-btn {
+  background-color: #e30d40;
+  border-radius: 5px;
+  width: fit-content;
+  height: 30px;
+  border: 1px solid black;
+  margin: 5px;
+  box-shadow: 2px 2px 3px black;
+}
+
+.ticket-link {
+  color: white;
+  font-size: 1.4vw;
+  font-weight: bolder;
+  text-shadow: 1px 1px 2px black;
+}
+
+
+
+
+/* SIGNUP */
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  margin: 10px 10px 10px 10px
+}
+
+.card {
+  margin: 50px;
+  padding: 15px 15px 30px 5px;
+}
+
+.card-header {
+  font-size: 1.8vw;
+  color: #e30d40;
+  font-weight:900;
+  text-shadow: 1px 1px lightgrey;
+  padding: none;
+}
+
+.form-body {
+  align-items:center;
+}
+
+.form-input {
+  box-shadow: 1px 1px 2px;
+  border: 0.5px solid black;
+}
+
+.signup-btn {
+  background-color: #e30d40;
+  border-radius: 5px;
+  width: fit-content;
+  height: 25px;
+  align-items:flex-end;
+  border: 1px solid black;
+  margin: 5px;
+  box-shadow: 2px 2px 3px black;
+  text-decoration: none;
+  color: white;
+  font-size: 1.3vw;
+  font-weight: bolder;
+  text-shadow: 1px 1px 2px black;
+}
+
+.sm-icons {
+  display: flex;
+  flex-direction: row;
+}
+
+.fbLogo {
+  max-width: 80px;
+  padding: 8px;
+}
+
+.twLogo {
+  max-width: 80px;
+  padding: 8px;
+}
+
+.igLogo {
+  max-width: 92px;
+  padding: 3px 8px 5px 3px;
+}
 
 
 
@@ -100,48 +221,4 @@ body {
 
 .faqList {
   padding: 10 10 10 10
-}
-
-
-
-
-/* SIGNUP */
-
-.card-header {
-  size: 20px;
-  color: #e30d40;
-  font-weight:900;
-  text-shadow: 1px 1px lightgrey;
-}
-
-.signup-btn {
-  background-color: #e30d40;
-  border-radius: 5px;
-  width: fit-content;
-  height: 25px;
-  align-items:flex-end;
-  border: 1px solid black;
-  margin: 5px;
-  box-shadow: 1px 1px black;
-  text-decoration: none;
-  color: white;
-  font-size: 15px;
-  font-weight: bolder;
-  text-shadow: 1px 1px black;
-}
-
-.sm-icons {
-  display: block;
-}
-
-.fbLogo {
-  max-width: 100px;
-}
-
-.twLogo {
-  max-width: 100px;
-}
-
-.igLogo {
-  max-width: 112px;
 }

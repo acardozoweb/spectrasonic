@@ -4,22 +4,25 @@
 
 import React from "react";
 
+import placeholder from "../../assets/images/Placeholder.png"
+
 function eventListings() {
   return (
     <div>
       <div className="event-card mb-3">
         <div>
-          <p>
-            <span>
-                Date: Artist Name
-            </span>
-          </p>
+          <img src={placeholder} className="card-img" />
         </div>
         <div className="card-body">
+            <p>Artist Name</p>
+            <p>Date</p>
             <p>Venue</p>
             <p>Doortime, Start time</p>
-            <p>Ticket Price</p>
-            <p>19+ / All Ages / etc</p>
+            <p>Price</p>
+            <p>19+/AA/etc</p>
+            <button className="ticket-btn">
+              <a className="ticket-link">tickets</a>  
+            </button>
         </div>
       </div>
     </div>
