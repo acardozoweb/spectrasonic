@@ -209,16 +209,40 @@ body {
 
 
 
+/* CONTACT */
+
+.contactPage {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.55vw;
+  margin: 30px 100px 30px 100px;
+}
+
+.pageTitle {
+  font-size: 1.8vw;
+  color: #e30d40;
+  font-weight:900;
+  text-shadow: 2px 2px lightgrey;
+}
+
+
+
+
 /* FAQ */
+
+.faqList {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 100px 30px 100px;
+
+}
 
 .question {
   font-weight: bold;
+  font-size: 1.35vw;
 }
 
 .answer {
   font-weight: lighter;
-}
-
-.faqList {
-  padding: 10 10 10 10
+  font-size: 1.25vw;
 }
