@@ -11,6 +11,8 @@ function Header() {
   return (
     <header className="header">
       <div className="header-container">
+
+        <div className="logo-container">
         <Link to="/">
           <img
             src={spectraLogo}
@@ -19,8 +21,10 @@ function Header() {
             alt="spectrasonic logo"
           />
         </Link>
+        </div>
  
         <nav className="nav">
+
           <button className="nav-btn">
             <Link className="nav-link" to="/shows">
               shows

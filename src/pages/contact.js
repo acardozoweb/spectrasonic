@@ -1,4 +1,5 @@
 import React from "react";
+// import Signup from "../components/Signup"
 
 const Contact = () => {
   return (
@@ -48,6 +49,7 @@ const Contact = () => {
           </a>
         </p>
       </div>
+
 
     </div>
   );

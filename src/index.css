@@ -6,7 +6,7 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
@@ -31,13 +31,9 @@ body {
   color: black;
 
   font-family: Arial, Helvetica, sans-serif;
-
 }
 
-
-
-
-/* HEADER */
+/* HEADER & NAVBAR */
 
 .header {
   display: flex;
@@ -47,7 +43,7 @@ body {
 }
 
 .spectraLogo {
-  max-width: 450px;
+  max-width: 25vw;
   padding: 30px 60px 30px 30px;
 }
 
@@ -60,7 +56,7 @@ body {
 .nav {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: flex-end;
   padding: 0 0 30px 0;
 }
@@ -69,33 +65,39 @@ body {
   background-color: #e30d40;
   border-radius: 5px;
   width: fit-content;
-  height: 40px;
-  border: 1px solid black;
+  height: 4vw;
+  /* border: 1px solid black; */
   margin: 5px;
   box-shadow: 2px 2px 5px black;
+
 }
 
 .nav-link {
   text-decoration: none;
   color: white;
-  font-size: 1.7vw;
+  font-size: 1.8vw;
   font-weight: bolder;
   text-shadow: 2px 2px 5px black;
 }
+
+.nav-btn:hover {
+  background-color: black;
+  color: #e30d40;
+  text-shadow: 2px 2px 5px black;
+}
+
+
 
 .nav-active {
   background-color: white;
   color: #e30d40;
   text-shadow: 2px 2px 5px black;
   box-shadow: 2px 2px 5px black;
-
 }
 
 .pageTitle {
   color: #e30d40;
 }
-
-
 
 /* LISTINGS  */
 
@@ -109,15 +111,19 @@ body {
 }
 
 .card-img {
-  max-width: 350px;
+  max-width: 250px;
   border-radius: 5px;
   padding: 15px;
 }
 
 .card-body {
-  padding: 15px 15px 30px 5px;
+  padding: 8px 15px 30px 5px;
   font-size: 1.4vw;
   line-height: 3px;
+}
+
+.card-body p {
+  font-size: 1.2vw;
 }
 
 .ticket-btn {
@@ -137,38 +143,48 @@ body {
   text-shadow: 1px 1px 2px black;
 }
 
-
-
-
 /* SIGNUP */
 
 .flex-container {
   display: flex;
   justify-content: center;
+  /* border: 1px solid black; */
+  margin: auto;
+  text-align: center;
+  max-width: 30vw;
+  max-height: 50vw;
+}
+
+.signup-card {
   border: 1px solid black;
-  margin: 10px 10px 10px 10px
+  /* max-width: 350px; */
+  max-height: 400px;
 }
 
 .card {
   margin: 50px;
-  padding: 15px 15px 30px 5px;
+  padding: 0 5px 0 5px;
 }
 
 .card-header {
   font-size: 1.8vw;
   color: #e30d40;
-  font-weight:900;
+  font-weight: 900;
   text-shadow: 1px 1px lightgrey;
   padding: none;
 }
 
+.form {
+  display: flex;
+}
+
 .form-body {
-  align-items:center;
+  align-items: center;
 }
 
 .form-input {
   box-shadow: 1px 1px 2px;
-  border: 0.5px solid black;
+  border: 0.1px solid black;
 }
 
 .signup-btn {
@@ -176,7 +192,7 @@ body {
   border-radius: 5px;
   width: fit-content;
   height: 25px;
-  align-items:flex-end;
+  align-items: flex-end;
   border: 1px solid black;
   margin: 5px;
   box-shadow: 2px 2px 3px black;
@@ -190,24 +206,23 @@ body {
 .sm-icons {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .fbLogo {
-  max-width: 80px;
+  max-width: 5vw;
   padding: 8px;
 }
 
 .twLogo {
-  max-width: 80px;
+  max-width: 5vw;
   padding: 8px;
 }
 
 .igLogo {
-  max-width: 92px;
+  max-width: 5.75vw;
   padding: 3px 8px 5px 3px;
 }
-
-
 
 /* CONTACT */
 
@@ -221,12 +236,9 @@ body {
 .pageTitle {
   font-size: 1.8vw;
   color: #e30d40;
-  font-weight:900;
+  font-weight: 900;
   text-shadow: 2px 2px lightgrey;
 }
-
-
-
 
 /* FAQ */
 
@@ -234,7 +246,6 @@ body {
   display: flex;
   flex-direction: column;
   margin: 30px 100px 30px 100px;
-
 }
 
 .question {
@@ -245,4 +256,23 @@ body {
 .answer {
   font-weight: lighter;
   font-size: 1.25vw;
+}
+
+/* ///////////// */
+/* MEDIA QUERIES */
+/* ///////////// */
+
+@media screen and (max-width: 900px) {
+}
+
+@media screen and (max-width: 825px) {
+  .header-container {
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 600px) {
 }

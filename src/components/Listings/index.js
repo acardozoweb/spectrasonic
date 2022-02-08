@@ -14,7 +14,7 @@ function eventListings() {
           <img src={placeholder} className="card-img" alt="promo shot of the artist"/>
         </div>
         <div className="card-body">
-            <p>Artist Name</p>
+            <h3>Artist Name</h3>
             <p>Date</p>
             <p>Venue</p>
             <p>Doortime, Start time</p>

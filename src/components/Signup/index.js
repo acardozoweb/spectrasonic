@@ -10,7 +10,7 @@ import instaLogo from "../../assets/logos/ig_logo.png";
 
 function signup() {
   return (
-    <main className="flex-container justify-right mb-4">
+    <main className="flex-container signup-card justify-right mb-4">
       <div>
         <div className="card">
           <h3 className="card-header">Join the mailing list!</h3>
@@ -18,6 +18,7 @@ function signup() {
 
             {/* MAILCHIMP FORM ACTION */}
             <form
+              className="form-container"
               action="https://xom.us4.list-manage.com/subscribe/post"
               method="POST"
             >
@@ -60,7 +61,7 @@ function signup() {
             <br></br>
 
             <div>
-              <h3 className="card-header">Follow us for updates!</h3>
+              <h3 className="card-header">Follow for updates!</h3>
 
               <div className="sm-icons">
                 <a
