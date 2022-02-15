@@ -33,6 +33,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+
+
+
+
+
 /* /////////////// */
 /* HEADER & NAVBAR */
 /* /////////////// */
@@ -52,43 +57,60 @@ body {
   display: flex;
   position: relative;
   align-items: center;
+  justify-content: space-between;
+}
+
+.logo-container {
+  display: flex;
+  width: 350px;
+  justify-content: center;
 }
 
 .spectraLogo {
-  width: 50vw;
-  
+  width: 100%;
+  height: auto;
+  margin: 2rem 0 0 4rem
 }
 
 .navbar-links {
   height: 100%;
+  margin: 0 2rem 0 0;
 }
 
 .navbar ul {
   margin: 0;
   padding: 0;
   display: flex;
-}
-
-.navbar li {
   list-style: none;
 }
 
-.navbar li a {
+.nav-link {
   text-decoration: none;
-  background-color: #e30d40;
   color: white;
-  max-width: fit-content;
-  margin: .5rem;
-  padding: 0.05rem;
-  display: block;
-  /* justify-content: space-between; */
+  font-size: 1.8vw;
+  font-weight: bolder;
+  text-shadow: 2px 2px 5px black;
 }
+
+.navbar button {
+  background-color: #e30d40;
+  text-decoration: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px black;
+  margin: 0.5rem;
+}
+
+.navbar button:hover {
+  background-color: black;
+}
+
+
 
 .menu-toggle {
   position: absolute;
   top: 2rem;
   right: 2rem;
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: space-between;
   width: 30px;
@@ -117,7 +139,7 @@ body {
 }
 
 .spectraLogo {
-  max-width: 25vw;
+  width: 25vw;
   padding: 30px 60px 30px 30px;
 }
 
@@ -145,30 +167,28 @@ body {
   box-shadow: 2px 2px 5px black;
 }
 
-.nav-link {
-  text-decoration: none;
-  color: white;
-  font-size: 1.8vw;
-  font-weight: bolder;
-  text-shadow: 2px 2px 5px black;
-}
 
-.nav-btn:hover {
+/* .nav-link:hover {
   background-color: black;
   color: #e30d40;
   text-shadow: 2px 2px 5px black;
-}
+} */
 
+/* 
 .nav-active {
   background-color: white;
   color: #e30d40;
   text-shadow: 2px 2px 5px black;
   box-shadow: 2px 2px 5px black;
-}
+} */
 
 .pageTitle {
   color: #e30d40;
 }
+
+
+
+
 
 /* LISTINGS  */
 
@@ -291,9 +311,13 @@ body {
 }
 
 .igLogo {
-  max-width: 5.75vw;
+  max-width: 5.25vw;
   padding: 3px 8px 5px 3px;
 }
+
+
+
+
 
 /* CONTACT */
 
@@ -310,6 +334,10 @@ body {
   font-weight: 900;
   text-shadow: 2px 2px lightgrey;
 }
+
+
+
+
 
 /* FAQ */
 
@@ -329,36 +357,73 @@ body {
   font-size: 1.25vw;
 }
 
+
+
+
+
+
+
+
+
+
+
 /* ///////////// */
 /* MEDIA QUERIES */
 /* ///////////// */
 
+
+@media screen and (max-width: 1200px) {
+  .spectraLogo {
+    width: 100%;
+    height: auto;
+    
+    
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .spectraLogo {
+    width: 100%;
+    height: auto;
+    
+    
+  }
+}
+
 @media screen and (max-width: 900px) {
+  .spectraLogo {
+    width: 100%;
+    height: auto;
+    
+    
+  }
 }
 
 
 @media screen and (max-width: 840px) {
-  .logo-container {
-    justify-items: center;
+  .spectraLogo {
+    width: 100%;
+    height: auto;
+    
+    
   }
+
 }
 
 
 @media screen and (max-width: 768px) {
-}
-
-
-@media screen and (max-width: 600px) {
-
   .spectraLogo {
-    width: 200px;
+    width: 85%;
+    height: auto;
   }
 
   .menu-toggle {
+    position: absolute;
     display: flex;
   }
+
   .navbar-links {
-    /* display: none; */
+    display: none;
     width: 100%;
   }
 
@@ -376,7 +441,26 @@ body {
     text-align: center;
   }
 
-  .navbar-links li a {
+  .navbar-links li button {
     padding: .5rem 1rem;
+  }
+
+  .navbar-links.active {
+    display: flex;
+  }
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+
+
+}
+
+@media screen and (max-width: 400px) {
+  .spectraLogo {
+    width: 70%;
+    height: auto;
   }
 }

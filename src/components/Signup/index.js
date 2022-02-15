@@ -8,6 +8,7 @@ import fbLogo from "../../assets/logos/fb_logo.png";
 import twitLogo from "../../assets/logos/twit_logo.png";
 import instaLogo from "../../assets/logos/ig_logo.png";
 
+
 function signup() {
   return (
     <main className="flex-container signup-card justify-right mb-4">
@@ -73,7 +74,8 @@ function signup() {
                     className="fbLogo"
                     src={fbLogo}
                     alt="link to spectrasonic facebook page"
-                  />
+                  /> 
+
                 </a>
 
                 <a

@@ -7,13 +7,25 @@ import { Link } from "react-router-dom";
 import spectraLogo from "../../assets/logos/spectrasonic_logo_k-192.jpg";
 // import { Nav } from '../Nav/index.js'
 
+
+
+
+
 function Header() {
+
+  // const menuToggle = document.getElementsByClassName('menu-toggle')[0]
+  // const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+  
+  // menuToggle.addEventListener('click', (event) => {
+  // navbarLinks.classList.toggle('active')
+  // })
+
   return (
 
     <header>
       <nav className="navbar">
 
-        <div> 
+        <div className="logo-container"> 
             <Link to="/"><img src={spectraLogo} className="spectraLogo" alt="spectrasonic logo"/> </Link>
         </div>
 
@@ -22,13 +34,13 @@ function Header() {
           <span className="bar"></span>
           <span className="bar"></span>
         </a>
-        
+
         <div className="navbar-links">
           <ul>
-            <li> <a><Link to="/shows">shows</Link></a> </li>
-            <li> <a><Link to="/calendar">calendar</Link></a> </li>
-            <li> <a><Link to="/faq">faq</Link></a> </li>
-            <li> <a><Link to="/contact">contact</Link></a> </li>
+            <li> <button><Link to="/shows" className="nav-link">shows</Link></button> </li>
+            <li> <button><Link to="/calendar" className="nav-link">calendar</Link></button> </li>
+            <li> <button><Link to="/faq" className="nav-link">faq</Link></button> </li>
+            <li> <button><Link to="/contact" className="nav-link">contact</Link></button> </li>
           </ul>
         </div>
       </nav>
