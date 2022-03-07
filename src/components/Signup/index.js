@@ -14,7 +14,7 @@ function signup() {
     <main className="flex-container signup-card justify-right mb-4">
       <div>
         <div className="card">
-          <h3 className="card-header">Join the mailing list!</h3>
+          <h3 className="card-header">sign up for our mailing list</h3>
           <div className="form-body">
 
             {/* MAILCHIMP FORM ACTION */}
@@ -35,7 +35,7 @@ function signup() {
               />
             <br></br>
             <br></br>
-              <input
+              {/* <input
                 className="form-input"
                 placeholder="First Name"
                 type="text"
@@ -50,9 +50,8 @@ function signup() {
                 type="text"
                 name="MERGE2"
                 id="MERGE2"
-              />
-            <br></br>
-            <br></br>
+              /> */}
+            
               <button className="signup-btn" type="submit">
                 submit
               </button>
@@ -62,7 +61,7 @@ function signup() {
             <br></br>
 
             <div>
-              <h3 className="card-header">Follow for updates!</h3>
+              <h3 className="card-header">follow us for updates</h3>
 
               <div className="sm-icons">
                 <a

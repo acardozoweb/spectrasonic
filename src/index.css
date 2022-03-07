@@ -104,7 +104,9 @@ body {
   background-color: black;
 }
 
-
+.nav-link :active {
+  background-color: black;
+}
 
 .menu-toggle {
   position: absolute;
@@ -182,9 +184,9 @@ body {
   box-shadow: 2px 2px 5px black;
 } */
 
-.pageTitle {
-  color: #e30d40;
-}
+
+
+
 
 
 
@@ -192,22 +194,34 @@ body {
 
 /* LISTINGS  */
 
+.listingsTitle {
+  margin: 30px 100px 30px 100px;
+  font-size: 1.8vw;
+  color: #e30d40;
+  font-weight: 900;
+  text-shadow: 2px 2px lightgrey;
+}
+
 .event-card {
   display: flex;
+
   border: 0.5px solid black;
   border-radius: 5px;
-  width: fit-content;
+  width: 55vw;;
   margin: 30px 100px 30px 100px;
   box-shadow: 2px 2px 5px;
 }
 
 .card-img {
-  max-width: 250px;
+  justify-content: flex-start;
+  max-width: 30vw;
+  height: 17vw;
   border-radius: 5px;
   padding: 15px;
 }
 
 .card-body {
+  flex-wrap: wrap;
   padding: 8px 15px 30px 5px;
   font-size: 1.4vw;
   line-height: 3px;
@@ -217,8 +231,14 @@ body {
   font-size: 1.2vw;
 }
 
+
+.tik-btn-container {
+  justify-content: flex-end;
+}
+
 .ticket-btn {
   background-color: #e30d40;
+  justify-content: flex-end;
   border-radius: 5px;
   width: fit-content;
   height: 30px;
@@ -232,13 +252,18 @@ body {
   font-size: 1.4vw;
   font-weight: bolder;
   text-shadow: 1px 1px 2px black;
+  text-decoration: none;
 }
+
+
+
+
 
 /* SIGNUP */
 
 .flex-container {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   /* border: 1px solid black; */
   margin: auto;
   text-align: center;
@@ -247,9 +272,11 @@ body {
 }
 
 .signup-card {
-  border: 1px solid black;
+  display: flex;
+  /* border: 1px solid black; */
   /* max-width: 350px; */
   max-height: 400px;
+ 
 }
 
 .card {

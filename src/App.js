@@ -17,14 +17,19 @@ function App() {
           <Header></Header>
           <Switch>
 
+
           <Route exact path="/faq" component={FAQ} />
           <Route exact path="/contact" component={Contact} />
+
+
 
           <Route component={NoMatch} />
           </Switch>
           {/* <Nav></Nav> */}
+
           <Listings></Listings>
           <Signup></Signup>
+
         </main>
       </Router>
     </div>
