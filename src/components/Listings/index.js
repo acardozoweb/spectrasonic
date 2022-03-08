@@ -31,7 +31,7 @@ function eventListings() {
         </div>
         <div className="card-body">
             <h3>Said The Whale - Dandelion Tour</h3>
-            <p>Wednesday March 9</p>
+            <p>Wed Mar 9</p>
             <p>Club SAW, Ottawa, ON</p>
             <p>8:30PM, Doors 8:00</p>
             <p>$25 (plus fees)</p>
@@ -59,7 +59,7 @@ function eventListings() {
         </div>
         <div className="card-body">
             <h3>Said The Whale - Dandelion Tour</h3>
-            <p>Thursday March 10</p>
+            <p>Thu Mar 10</p>
             <p>The Mansion, Kingston, ON</p>
             <p>8:30POM, Doors 8:00PM</p>
             <p>$25 (plus fees)</p>
@@ -85,7 +85,7 @@ function eventListings() {
         </div>
         <div className="card-body">
             <h3>Kirstian North</h3>
-            <p>Friday March 11</p>
+            <p>Fri Mar 11</p>
             <p>Club SAW, Ottawa, ON</p>
             <p>8:30PM, Doors 8:00pm</p>
             <p>$12 (plus fees)</p>
@@ -111,7 +111,7 @@ function eventListings() {
         </div>
         <div className="card-body">
             <h3>By Divine Right</h3>
-            <p>Friday March 11</p>
+            <p>Fri Mar 11</p>
             <p>Dominion Tavern</p>
             <p>8:30PM, Doors 8:00PM</p>
             <p>$15 (plus fees)</p>
@@ -137,7 +137,7 @@ function eventListings() {
         </div>
         <div className="card-body">
             <h3>Guest Room Status</h3>
-            <p>Saturday March 12</p>
+            <p>Sat Mar 12</p>
             <p>Dominion Tavern</p>
             <p>8:30PM, Doors 8:00PM</p>
             <p>$15 (plus fees)</p>
@@ -163,7 +163,7 @@ function eventListings() {
         </div>
         <div className="card-body">
             <h3>Mod Nite: 1960's rock &...</h3>
-            <p>Saturday March 12</p>
+            <p>Sat Mar 12</p>
             <p>Club SAW, Ottawa, ON</p>
             <p>10:00 - 1:45AM, Doors 10:00PM</p>
             <p>$5-15 (plus fees)</p>
@@ -189,7 +189,7 @@ function eventListings() {
         </div>
         <div className="card-body">
             <h3>David Wilcox</h3>
-            <p>Thursday March 17</p>
+            <p>Thu Mar 17</p>
             <p>Bronson Centre, Ottawa, ON</p>
             <p>Doors 7:00PM</p>
             <p>$39.50 - $50 (plus fees)</p>
@@ -215,9 +215,9 @@ function eventListings() {
         </div>
         <div className="card-body">
             <h3>Rich Aucoin</h3>
-            <p>Friday March 18</p>
+            <p>Fri Mar 18</p>
             <p>Club SAW, Ottawa, ON</p>
-            <p>8:30PM, DOors 8:00PM</p>
+            <p>8:30PM, Doors 8:00PM</p>
             <p>$17 (plus fees)</p>
             <p>Ages 19+</p>
             <button className="ticket-btn">
@@ -241,7 +241,7 @@ function eventListings() {
         </div>
         <div className="card-body">
             <h3>The Wonder Years: The Upsides ...</h3>
-            <p>Saturday March 19</p>
+            <p>Sat Mar 19</p>
             <p>Algonquin Commons Theatre, Ottawa, ON</p>
             <p>6:00PM</p>
             <p>$43.50 (plus fees)</p>
@@ -267,7 +267,7 @@ function eventListings() {
         </div>
         <div className="card-body">
             <h3>Cancer Bats & Comeback Kid</h3>
-            <p>Saturday March 19</p>
+            <p>Sat Mar 19</p>
             <p>The Brass Monkey, Ottawa, ON</p>
             <p>7:00PM, Doors 6:30PM</p>
             <p>$30 (plus fees)</p>

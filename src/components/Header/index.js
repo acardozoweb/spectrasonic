@@ -25,8 +25,8 @@ function Header() {
     <header>
       <nav className="navbar">
 
-        <div className="logo-container"> 
-            <Link to="/"><img src={spectraLogo} className="spectraLogo" alt="spectrasonic logo"/> </Link>
+        <div>
+          <Link to="/"><img src={spectraLogo} className="spectraLogo" alt="spectrasonic logo"/> </Link>
         </div>
 
         <a href="#" className="menu-toggle">
@@ -34,6 +34,10 @@ function Header() {
           <span className="bar"></span>
           <span className="bar"></span>
         </a>
+
+        {/* <div className="header-txt">
+          <h2>OTTAWA-BASED CONCERT PROMOTION & EVENT MANAGEMENT</h2>
+        </div> */}
 
         <div className="navbar-links">
           <ul>
@@ -43,7 +47,13 @@ function Header() {
             <li> <button><Link to="/contact" className="nav-link">contact</Link></button> </li>
           </ul>
         </div>
+
+ 
+
       </nav>
+
+
+
       
     </header>
 

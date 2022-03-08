@@ -10,10 +10,10 @@ code {
     monospace;
 }
 
-.spectraLogo {
+/* .spectraLogo {
   padding-top: 10;
   padding-left: 10;
-}
+} */
 
 body {
   margin: 0;
@@ -55,32 +55,43 @@ body {
 
 .navbar {
   display: flex;
-  position: relative;
-  align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  /* border: solid black 1px; */
 }
 
 .logo-container {
-  display: flex;
-  width: 350px;
+  /* display: flex; */
+  width: 450px;
   justify-content: center;
 }
 
 .spectraLogo {
   width: 100%;
-  height: auto;
-  margin: 2rem 0 0 4rem
+  /* height: auto; */
+  margin: 2rem 0 0 4rem;
+  padding: 30px 60px 30px 30px;
+}
+
+.header-txt {
+  display: flex;
+  
+  
 }
 
 .navbar-links {
+  display: flex;
   height: 100%;
-  margin: 0 2rem 0 0;
+  margin: 7rem 2rem 0 28rem;
+}
+
+.navbar-links.active {
+  display: flex;
 }
 
 .navbar ul {
+  display: flex;
   margin: 0;
   padding: 0;
-  display: flex;
   list-style: none;
 }
 
@@ -133,41 +144,43 @@ body {
 
 /* ///////// OG HEAD & NAV ///////// */
 
-.header {
+/* .header {
   display: flex;
   flex-wrap: wrap;
   margin: 30px 100px 30px 100px;
   justify-content: center;
-}
+} */
 
-.spectraLogo {
+/* .spectraLogo {
   width: 25vw;
-  padding: 30px 60px 30px 30px;
-}
+  
+} */
 
-.header-container {
+
+
+/* .header-container {
   padding: 25px 25px;
   display: flex;
-  /* flex-wrap: wrap; */
-}
+  flex-wrap: wrap;
+} */
 
-.nav {
+/* .nav {
   display: flex;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: flex-end;
   padding: 0 0 30px 0;
-}
+} */
 
-.nav-btn {
+/* .nav-btn {
   background-color: #e30d40;
   border-radius: 5px;
   width: fit-content;
   height: 4vw;
-  /* border: 1px solid black; */
+  border: 1px solid black;
   margin: 5px;
   box-shadow: 2px 2px 5px black;
-}
+} */
 
 
 /* .nav-link:hover {
@@ -418,29 +431,19 @@ body {
 }
 
 @media screen and (max-width: 900px) {
-  .spectraLogo {
-    width: 100%;
-    height: auto;
-    
-    
-  }
+
 }
 
 
 @media screen and (max-width: 840px) {
-  .spectraLogo {
-    width: 100%;
-    height: auto;
-    
-    
-  }
+
 
 }
 
 
 @media screen and (max-width: 768px) {
   .spectraLogo {
-    width: 85%;
+    width: 50%;
     height: auto;
   }
 
@@ -487,7 +490,7 @@ body {
 
 @media screen and (max-width: 400px) {
   .spectraLogo {
-    width: 70%;
+    width: 50%;
     height: auto;
   }
 }
